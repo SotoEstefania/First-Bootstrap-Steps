@@ -1,0 +1,63 @@
+.bg-grey{
+   background-color:#343a40;
+}
+.logo{
+max-width: 100px;
+}
+.text-gray{
+   color: #adb5bd;
+}
+ul,
+ol {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.text-succes:hover {
+   color:white;
+}
+.nav-link:visited{
+   color:#adb5bd;
+}
+.nav-link:hover{
+   color: white;
+}
+.nav-link:active{
+   color:white;
+}
+.text-green{
+   color: #28a544 !important;
+}
+.text-green:hover, .text-green:active{
+   color: #32c252 !important;
+}
+
+#presentacion{
+   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/ba1.jpg);
+   background-size: cover;
+   background-position: bottom;
+   height: 90vh;
+}
+.btn-outline-light:hover{
+   background-color: rgb(240, 248, 255,0.9) !important;
+}
+.btn-comprar{
+   background-color:#28a544;
+   color: white;
+}
+.btn-comprar:hover, .btn-comprar:active{
+   background-color: #32c252 !important;
+}
+
+.info-playa{
+   background-image: url(../img/honolulu.jpg);
+   background-size:cover;
+   height: 50vh;
+}
+.subrayado-punteado{
+   border-bottom: dotted;
+}
+footer{
+   background: linear-gradient(90deg, #1c3644, #1e5372);
+}
