@@ -32,6 +32,9 @@ a {
 .text-green:hover, .text-green:active{
    color: #32c252 !important;
 }
+.navbar-toggler:focus{
+   box-shadow: none !important;
+}
 
 #presentacion{
    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/ba1.jpg);
@@ -49,14 +52,34 @@ a {
 .btn-comprar:hover, .btn-comprar:active{
    background-color: #32c252 !important;
 }
-
-.info-playa{
-   background-image: url(../img/honolulu.jpg);
-   background-size:cover;
-   height: 50vh;
+.btn-comprar:hover, .btn-comprar:active{
+   background-color: #32c252 !important;
+}
+.btn-enviar{
+   background-color:#96c93e;
+   color: white;
+}
+.btn-enviar:active, .btn-enviar:hover{
+   background-color:#a7df45 !important;
+   color: white !important;
+   
+}
+#info-bs-as{
+   background-color:#343a40;
+   padding: 0px !important;
+}
+.tarjeta{
+   border-radius: 0px !important;
+   border-style: none !important;
+}
+.img-playa{
+   height: 100% !important;
 }
 .subrayado-punteado{
    border-bottom: dotted;
+}
+textarea{
+   min-height: 7rem !important;
 }
 footer{
    background: linear-gradient(90deg, #1c3644, #1e5372);
