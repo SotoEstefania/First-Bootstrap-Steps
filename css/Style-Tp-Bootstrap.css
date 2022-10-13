@@ -55,11 +55,11 @@ a {
 .btn-comprar:hover, .btn-comprar:active{
    background-color: #32c252 !important;
 }
-.btn-enviar{
+.btn-enviar,.btn-reset{
    background-color:#96c93e;
    color: white;
 }
-.btn-enviar:active, .btn-enviar:hover{
+.btn-enviar:active, .btn-enviar:hover, .btn-reset:active, .btn-reset:hover{
    background-color:#a7df45 !important;
    color: white !important;
    
@@ -82,11 +82,9 @@ textarea{
    min-height: 7rem !important;
 }
 .card-tickets{
-   min-height: 200px;
    min-width: 200px;
    max-width: 250px;
    max-height: 250px;
-
 }
 
 footer{
