@@ -81,6 +81,14 @@ a {
 textarea{
    min-height: 7rem !important;
 }
+.card-tickets{
+   min-height: 200px;
+   min-width: 200px;
+   max-width: 250px;
+   max-height: 250px;
+
+}
+
 footer{
    background: linear-gradient(90deg, #1c3644, #1e5372);
 }
