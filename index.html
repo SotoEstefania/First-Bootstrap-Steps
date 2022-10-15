@@ -48,7 +48,7 @@
                 <a class="nav-link text-gray" href="#">Conviértete en orador</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-green" href="#">Comprar tickets</a>
+                <a class="nav-link text-green" href="#comprar-tickets">Comprar tickets</a>
               </li>
             </ul>
           </div>
@@ -66,8 +66,8 @@
             del evento, a otros estudiantes de Codo a Codo y a los oradores de
             primer nivel que tenemos para ti. Te esperamos!
           </p>
-          <button type="button" class="btn btn-outline-light m-1">Quiero ser orador</button>
-          <button type="button" class="btn btn-comprar m-1">Comprar tickets</button>
+          <a href="#ser-orador"><button type="button" class="btn btn-outline-light m-1">Quiero ser orador</button></a>
+          <a href="#comprar-tickets"><button type="button" class="btn btn-comprar m-1" >Comprar tickets </button></a>
         </div>
       </div>
     </section>
@@ -161,7 +161,7 @@
           </div>
         </div>
       </section>
-      <section class="container-lg ser-orador justify-content-center m-auto row ">
+      <section id="ser-orador" class="container-lg justify-content-center m-auto row " >
         <div class="col-sm-12 col-md-10 col-lg-8 ">
           <p class="text-uppercase text-center f-3">
             conviérte en un <br /><span class="fs-2 fw-semibold"> orador </span>
@@ -172,7 +172,7 @@
             Cuéntanos de qué quieres hablar!
           </p>
           <form>
-              <div class="row">
+            <div class="row">
               <div class="col-sm-12 col-md gy-2">
                 <input type="text" class="form-control" placeholder="Nombre" aria-label="Nombre">
               </div>
@@ -191,71 +191,68 @@
           </form>
         </div>
       </section>
-      <section class="container comprar-tickets">
+      <section id='comprar-tickets' class="container comprar-tickets">
 
-          <div class="row justify-content-center align-content-center mt-2">
+        <div class="row justify-content-center align-content-center">
 
-            <div class="col-sm-6 col-md-4 mb-0  card-tickets">
-              <div class="card border-primary mb-0 rounded-0" >
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title">Estudiante</h5>
-                  <p class="card-text">
-                    Tienen un descuento
-                  </p>
-                  <p>
-                    <b>80%</b>
-                  </p>
-                  <p>
-                    <small>*presentar documentacion</small>
-                  </p>
-                </div>
+          <div class="col-sm-6 col-md-4 mb-0 card-tickets">
+            <div class="card border-primary mb-0 rounded-0" >
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title">Estudiante</h5>
+                <p class="card-text">
+                  Tienen un descuento
+                </p>
+                <p>
+                  <b>80%</b>
+                </p>
+                <p>
+                  <small>*presentar documentacion</small>
+                </p>
               </div>
             </div>
-
-            <div class="col-sm-6 col-md-4 mb-0 card-tickets">
-              <div class="card border-success mb-0 rounded-0" >
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title">Trainee</h5>
-                  <p class="card-text">
-                    Tienen un descuento
-                  </p>
-                  <p>
-                    <b>50%</b>
-                  </p>
-                  <p>
-                    <small>*presentar documentacion</small>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-sm-6 col-md-4 mb-0 card-tickets">
-              <div class="card border-warning mb-0 rounded-0" >
-                <div class="card-body text-center d-flex flex-column">
-                  <h5 class="card-title">Junior</h5>
-                  <p class="card-text">
-                    Tienen un descuento
-                  </p>
-                  <p>
-                    <b>15%</b>
-                  </p>
-                  <p>
-                    <small>*presentar documentacion</small>
-                  </p>
-                </div>
-              </div>
-            </div>
-            
           </div>
+
+          <div class="col-sm-6 col-md-4 mb-0 card-tickets">
+            <div class="card border-success mb-0 rounded-0" >
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title">Trainee</h5>
+                <p class="card-text">
+                  Tienen un descuento
+                </p>
+                <p>
+                  <b>50%</b>
+                </p>
+                <p>
+                  <small>*presentar documentacion</small>
+                </p>
+              </div>
+            </div>            
+          </div>
+
+          <div class="col-sm-6 col-md-4 mb-0 card-tickets">
+            <div class="card border-warning mb-0 rounded-0" >
+              <div class="card-body text-center d-flex flex-column">
+                <h5 class="card-title">Junior</h5>
+                <p class="card-text">
+                  Tienen un descuento
+                </p>
+                <p>
+                  <b>15%</b>
+                </p>
+                <p>
+                  <small>*presentar documentacion</small>
+                </p>
+              </div>
+            </div>            
+          </div>
+            
         </div>
 
         <p class="text-uppercase text-center mt-2 mb-2 f-3">venta <br/><span class="fs-2 fw-semibold"> valor de ticket $200 </span></p>
-        <div class="container">
-        
 
         <div class="container row justify-content-center">
           <div class="col-sm-12 col-md-10 col-lg-8">
-            <form class="row g-3">
+            <form class="row g-3 mb-3">
               <div class="col-md-6">
                 <input type="text" class="form-control" id="inputname" placeholder="Nombre">
               </div>
@@ -266,31 +263,29 @@
                 <input type="email" class="form-control" id="inputmail" placeholder="Correo" required>
               </div>
               <div class="col-md-6">
-                <label for="inputCantidad" class="form-label">Cantidad</label>
-                <input type="number" class="form-control" id="inputCantidad" placeholder="Cantidad">
+                <label for="input-cantidad" class="form-label">Cantidad</label>
+                <input type="number" class="form-control" id="input-cantidad" placeholder="Cantidad">
               </div>
               <div class="col-md-6">
-                <label for="inputCategoria" class="form-label">Categoria</label>
-                <select id="inputCategoria" class="form-select">
+                <label for="input-categoria" class="form-label">Categoria</label>
+                <select id="input-categoria" class="form-select">
                   <option value="Estudiante" selected>Estudiante</option>
                   <option value="Trainee">Trainee</option>
                   <option value="Junior">Junior</option>
                 </select>
               </div>
-              
-              <div class="container justify-content-center">
-                <div class="col-12">
-                  <div class="row justify-content-center">
-                    <button type="reset" class="btn btn-reset col-6">Borrar</button>
-                    <button type="submit" class="btn btn-reset col-6">Resumen</button>
-                  </div>
+              <div class="col-12">
+                <div class="alert alert-primary" role="alert">
+                  <p class="total-a-pagar m-0">Total a Pagar: $ </p>
                 </div>
+              </div>
+              <div class="gap-3 mt-0 d-flex">
+                <button class="btn btn-reset w-50" type="reset">Borrar</button>
+                <button class="btn btn-resumen w-50" type="button">Resumen</button>
               </div>
             </form>
           </div>
         </div>
-
-
 
       </section>
     </main>
@@ -320,6 +315,7 @@
         </li>
       </ul>
     </footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
-  <script src="js/bootstrap.bundle.min.js"></script>
 </html>
